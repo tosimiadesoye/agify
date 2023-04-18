@@ -1,0 +1,10 @@
+{
+  "translation":{
+    "title": "Predict my age",
+    "p1": "This project uses the Agify API that tries to predict your age from your name.",
+    "p2":"Enter your name to get your predicted age",
+    "prediction": "your predicted age is",
+    "submit":"submit"
+
+  }
+}

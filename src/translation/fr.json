@@ -1,0 +1,9 @@
+{
+  "translation": {
+    "title": "Prédire mon âge",
+    "p1": "Ce projet utilise l'API Agify qui essaie de prédire votre âge à partir de votre nom.",
+    "p2": "Entrez votre nom pour obtenir votre âge prédit",
+    "prediction": "votre âge prévu est",
+    "submit": "soumettre"
+  }
+}
