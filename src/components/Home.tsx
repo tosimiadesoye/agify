@@ -28,11 +28,12 @@ function Home() {
     }
   };
 
-  const getAgifyData = () => {
+  const displayUserData = () => {
     return (
       data &&
       data.map((item, index: number) => {
         if (item.name === "") return;
+
         return (
           <li className="my-10" key={index}>
             <span>
@@ -79,7 +80,7 @@ function Home() {
         </div>
 
         <div className="md:mx-10">
-          <ul className="list-disc mx-40 ">{getAgifyData()}</ul>
+          <ul className="list-disc mx-40 ">{displayUserData()}</ul>
         </div>
       </div>
     </div>
