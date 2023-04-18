@@ -35,7 +35,7 @@ function Home() {
         if (item.name === "") return;
 
         return (
-          <li className="my-10" key={index}>
+          <li className="my-2" key={index}>
             <span>
               <span className="bg-white p-1 md:p-4 rounded font-semibold ">
                 {item.name}
@@ -54,13 +54,13 @@ function Home() {
     getData();
   }, []);
   return (
-    <div className=" ">
+    <div>
       <div>
         <Navigation />
       </div>
 
       <div>
-        <div className="flex justify-center">
+        <div className="flex justify-center py-5">
           <div className="my-12">
             <div className="flex justify-center md:my-10 ">
               <h1 className="text-xl font-semibold ">{t("title")}</h1>
