@@ -35,7 +35,7 @@ function Home() {
         if (item.name === "") return;
 
         return (
-          <li className="my-2" key={index}>
+          <li className="my-2 p-5" key={index}>
             <span>
               <span className="bg-white p-1 md:p-4 rounded font-semibold ">
                 {item.name}
