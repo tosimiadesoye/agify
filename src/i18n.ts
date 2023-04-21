@@ -4,7 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import * as en from "./translation/en.json";
 import * as fr from "./translation/fr.json";
 
-const resources = {
+export const resources = {
   en,
   fr,
 };

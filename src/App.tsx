@@ -13,7 +13,7 @@ function App() {
       <Home />
       <div className="mx-10 my-10 md:mx-40">
         <button
-          className=" bg-transparent hover:bg-cyan-800 text-cyan-700 font-semibold hover:text-white py-2 px-4 border border-cyan-500 hover:border-transparent  rounded"
+          className=" bg-transparent hover:bg-cyan-800 text-cyan-700 font-semibold hover:text-white py-2 px-4 border border-cyan-500 hover:border-transparent rounded"
           onClick={() => changeLanguage("en")}
         >
           EN

@@ -39,7 +39,7 @@ describe("Home component", () => {
     expect(getByText("p2")).toBeInTheDocument();
   });
 
-  test("dispatches postApiData action on form submission", () => {
+  test("dispatches getApiData action on form submission", () => {
     const dispatchMock = jest.fn();
     (useDispatch as any).mockReturnValue(dispatchMock);
 
